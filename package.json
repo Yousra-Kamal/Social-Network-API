@@ -1,0 +1,19 @@
+{
+  "name": "yousra-social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^7.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
