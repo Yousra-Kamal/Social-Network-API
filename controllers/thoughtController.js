@@ -19,9 +19,6 @@ module.exports = {
       const thought = await Thought.findOne({ _id: req.params.thoughtId })
         // Exclude __v field
         .select("-__v")
-        // Populate reactions and friends data
-        .populate("reactions")
-        .populate("friends");
       // If no thought is found, return an error message
       if (!thought) {
         return res
