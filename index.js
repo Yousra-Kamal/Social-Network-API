@@ -11,7 +11,6 @@ const app = express();
 // Define middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// Use routes defined in routes.js
 app.use(routes);
 
 // Connect to the MongoDB database and start the server after the connection is established
