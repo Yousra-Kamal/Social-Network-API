@@ -35,7 +35,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ## Usage
 For more information - Please visit the following video on how the application works:
 
-[Social Network API](https:// )
+[Social Network API -User route](https://www.loom.com/share/e17df7674a564907ada0902abc9049bb?sid=3362a1d7-3928-4b89-9286-c7a3b960b748)
+
+[Social Network API -Thouht route](https://www.loom.com/share/eb9f093c787349b6937b29a065833e7c?sid=b27f95b7-4d9f-4c42-b5a3-33a3efd807aa)
+
 
 
 ## Credits
